@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "name": "xhttp-relay-service",
+  "trailingSlash": false,
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/index" }
+  ],
+  "functions": {
+    "api/index.js": {
+      "memory": 128,
+      "maxDuration": 55
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "xhttp-relay-service",
+  "version": "1.2.0",
+  "description": "Serverless relay proxy for Xray/V2Ray on Vercel",
+  "private": true,
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
